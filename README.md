@@ -1,6 +1,9 @@
 # GaussianBlur
 
-A simple SVG Gaussian Blur effect on any element
+A simple SVG Gaussian Blur component on any element.
+
+Mainly using :
+https://developer.mozilla.org/fr/docs/Web/SVG/Element/feGaussianBlur
 
 
 ## Demo & Examples
