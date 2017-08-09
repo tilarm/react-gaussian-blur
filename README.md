@@ -1,11 +1,9 @@
 # GaussianBlur
 
-__COMPONENT DESCRIPTION GOES HERE__
+A simple SVG Gaussian Blur effect on any element
 
 
 ## Demo & Examples
-
-Live demo: [tilarm.github.io/react-gaussian-blur](http://tilarm.github.io/react-gaussian-blur/)
 
 To build the examples locally, run:
 
@@ -30,21 +28,13 @@ npm install react-gaussian-blur --save
 
 ## Usage
 
-__EXPLAIN USAGE HERE__
+Simply x / y coordinates to blur
 
 ```
 var GaussianBlur = require('react-gaussian-blur');
 
-<GaussianBlur>Example</GaussianBlur>
+<GaussianBlur x="10" y="5">Blured Example</GaussianBlur>
 ```
-
-### Properties
-
-* __DOCUMENT PROPERTIES HERE__
-
-### Notes
-
-__ADDITIONAL USAGE NOTES__
 
 
 ## Development (`src`, `lib` and the build process)
@@ -55,7 +45,7 @@ To build, watch and serve the examples (which will also watch the component sour
 
 ## License
 
-__PUT LICENSE HERE__
+
 
 Copyright (c) 2017 Armen Tildian.
 
