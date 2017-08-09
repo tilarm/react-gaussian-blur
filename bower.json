@@ -1,0 +1,29 @@
+{
+  "name": "react-gaussian-blur",
+  "version": "0.0.0",
+  "description": "GaussianBlur",
+  "main": "dist/react-gaussian-blur.min.js",
+  "homepage": "https://github.com/tilarm/react-gaussian-blur",
+  "authors": [
+    "Armen Tildian"
+  ],
+  "moduleType": [
+    "amd",
+    "globals",
+    "node"
+  ],
+  "keywords": [
+    "react",
+    "react-component"
+  ],
+  "license": "MIT",
+  "ignore": [
+    ".editorconfig",
+    ".gitignore",
+    "package.json",
+    "src",
+    "node_modules",
+    "example",
+    "test"
+  ]
+}
