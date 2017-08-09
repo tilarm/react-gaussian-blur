@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import SvgFilter from './SvgFilter';
+import PropTypes from 'prop-types';
 
 class GaussianBlur extends Component {
   render() {
@@ -14,5 +15,11 @@ class GaussianBlur extends Component {
 	);
   }
 }
+
+GaussianBlur.propTypes = {
+  children: PropTypes.element.isRequired,
+  x: PropTypes.integer,
+  y: PropTypes.number,
+};
 
 export default GaussianBlur;
