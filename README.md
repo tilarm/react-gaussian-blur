@@ -2,8 +2,8 @@
 
 A simple SVG Gaussian Blur component on any element.
 
-Mainly using :
-https://developer.mozilla.org/fr/docs/Web/SVG/Element/feGaussianBlur
+Mainly using native SVG feGaussianBlur Element
+(https://developer.mozilla.org/fr/docs/Web/SVG/Element/feGaussianBlur)
 
 
 ## Demo & Examples
@@ -31,12 +31,16 @@ npm install react-gaussian-blur --save
 
 ## Usage
 
-Simply x / y coordinates to blur
+Simply adjust the absciss (x attribute) or ordinate (y attribute) to blur the required directions
 
+
+Exemple :
 ```
-var GaussianBlur = require('react-gaussian-blur');
+import GaussianBlur from ('react-gaussian-blur')
 
-<GaussianBlur x="10" y="5">Blured Example</GaussianBlur>
+<GaussianBlur x="10" y="5">
+	Blured Example
+</GaussianBlur>
 ```
 
 
