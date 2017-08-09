@@ -29,6 +29,7 @@ npm install react-gaussian-blur --save
 ```
 
 ## Demo
+
 https://www.webpackbin.com/bins/-Kr6ZyoaaStBb8EtPonO
 
 
@@ -37,7 +38,7 @@ https://www.webpackbin.com/bins/-Kr6ZyoaaStBb8EtPonO
 Simply adjust the absciss (x attribute) or ordinate (y attribute) to blur the required directions
 
 
-Exemple :
+**Example :**
 ```
 import GaussianBlur from ('react-gaussian-blur')
 
@@ -46,6 +47,9 @@ import GaussianBlur from ('react-gaussian-blur')
 </GaussianBlur>
 ```
 
+## TODO
+
+* Simply use Babel to improve the development of the component
 
 ## Development (`src`, `lib` and the build process)
 
