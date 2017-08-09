@@ -28,6 +28,9 @@ You can also use the standalone build by including `dist/react-gaussian-blur.js`
 npm install react-gaussian-blur --save
 ```
 
+## Demo
+https://www.webpackbin.com/bins/-Kr6ZyoaaStBb8EtPonO
+
 
 ## Usage
 
