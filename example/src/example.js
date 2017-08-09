@@ -1,15 +1,17 @@
-var React = require('react');
-var ReactDOM = require('react-dom');
-var GaussianBlur = require('react-gaussian-blur');
+import React, {Component} from 'react';
+import ReactDOM from 'react-dom';
+import GaussianBlur from 'react-gaussian-blur';
 
-var App = React.createClass({
-  render () {
+class App extends Component {
+  render() {
 	return (
 	  <div>
-		<GaussianBlur x="10" y="10">Hello world</GaussianBlur>
+		<GaussianBlur x="8" y="5">
+		  Hello world
+		</GaussianBlur>
 	  </div>
 	);
   }
-});
+}
 
 ReactDOM.render(<App />, document.getElementById('app'));
