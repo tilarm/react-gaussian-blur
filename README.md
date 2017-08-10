@@ -18,6 +18,11 @@ npm start
 Then open [`localhost:8000`](http://localhost:8000) in a browser.
 
 
+**Online Demo :**
+https://www.webpackbin.com/bins/-Kr6ZyoaaStBb8EtPonO
+
+
+
 ## Installation
 
 The easiest way to use react-gaussian-blur is to install it from NPM and include it in your own React build process (using [Browserify](http://browserify.org), [Webpack](http://webpack.github.io/), etc).
@@ -28,9 +33,6 @@ You can also use the standalone build by including `dist/react-gaussian-blur.js`
 npm install react-gaussian-blur --save
 ```
 
-## Demo
-
-https://www.webpackbin.com/bins/-Kr6ZyoaaStBb8EtPonO
 
 
 ## Usage
@@ -38,12 +40,11 @@ https://www.webpackbin.com/bins/-Kr6ZyoaaStBb8EtPonO
 Simply adjust the absciss (x attribute) or ordinate (y attribute) to blur the required directions
 
 
-**Example :**
 ```
 import GaussianBlur from ('react-gaussian-blur')
 
 <GaussianBlur x="10" y="5">
-	Blured Example
+ Blured Example
 </GaussianBlur>
 ```
 
